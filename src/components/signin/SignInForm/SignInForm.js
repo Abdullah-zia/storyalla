@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
-import "./SignupForm.css";
+import "./SignInForm.css";
 
-const SignupForm = () => {
+const SignInForm = () => {
   return (
     <Fragment>
       <form className="formWrapper">
@@ -10,11 +10,7 @@ const SignupForm = () => {
             <i className="fa fa-lock" aria-hidden="true"></i>
           </span>
         </div>
-        <h1 className="signupHead">sign up</h1>
-        <div className="upFormNamesWrapper">
-          <input type="text" className="inputName" placeholder="First Name" />
-          <input type="text" className="inputName" placeholder="Last Name" />
-        </div>
+        <h1 className="signupHead">sign In</h1>
         <div className="my-2">
           <input
             type="email"
@@ -29,25 +25,18 @@ const SignupForm = () => {
             placeholder="Password*"
           />
         </div>
-        <div className="my-2">
-          <input
-            type="password"
-            className="UpemailInput"
-            placeholder="Repeat Password*"
-          />
-        </div>
         <a href="/" className="signupBtn">
-          Sign Up
+          Sign In
         </a>
         <a href="/" className="signupBtn2">
           <i class="fa fa-google" aria-hidden="true"></i> Google Sign in
         </a>
         <a href="/" className="haveAccount">
-          Already have an account? signin
+          Don't have an account? signup
         </a>
       </form>
     </Fragment>
   );
 };
 
-export default SignupForm;
+export default SignInForm;
