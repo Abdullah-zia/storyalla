@@ -1,0 +1,30 @@
+.postDHead {
+  font-weight: 400;
+  font-size: 2.9rem;
+}
+.postDHashTags {
+  color: gray;
+  font-size: 0.9rem;
+}
+.postDHashTags span {
+  display: inline-block;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  margin-bottom: 1rem;
+}
+.postDTextPara {
+  font-size: 1rem;
+  color: rgb(68, 68, 68);
+  line-height: 1rem;
+}
+.postDAuthor {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.postDAuthor span {
+  font-weight: 400;
+}
+.postDImgTime {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
