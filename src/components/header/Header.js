@@ -5,13 +5,13 @@ import logo from "../../assets/logo.png";
 const Header = () => {
   return (
     <Fragment>
-      <section className="container-fluid border">
+      <section className="container-fluid">
         <div className="col-11 mx-auto max-width">
           <div className="headerWrapper">
             <a href="/">
               <img src={logo} className="img-fluid headerLogo" alt="logo" />
             </a>
-            <div className="border headerNavWrap">
+            <div className="headerNavWrap">
               <a href="/" className="profileImg">
                 A
               </a>
